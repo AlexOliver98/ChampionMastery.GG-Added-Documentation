@@ -28,6 +28,12 @@ export default class HomePage extends React.Component<HomeProps> {
 			{/*CMGG/home-mid-responsive*/}
 			<ResponsiveAd adSlot={8405530677}/>
 
+			<p>
+				Accounts With the Highest Mastery Points by Champion Globally
+
+				Note! For an account to be included on these lists, it must have been queried on this site at least once!
+			</p>
+
 			<div id="champion-filter-container">
 				<input type="text" placeholder={this.props.commonData.T["Champion name"]} id="champion-filter"/>
 				<span className="material-symbols-outlined">filter_list</span>

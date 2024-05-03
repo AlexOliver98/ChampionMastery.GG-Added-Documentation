@@ -15,6 +15,11 @@ export default class ChampionPage extends React.Component<ChampionProps> {
 					 src={`${this.props.commonData.dragonUrl}/img/championIcons/${this.props.champion.icon}`}/>
 				<span>{this.props.champion.getLocalizedName(this.props.commonData.T)}</span>
 			</h1>
+			<p>
+				Accounts With the Highest Mastery Points Globally
+
+				Note! For an account to be included on this list, it must have been queried on this site at least once!
+			</p>
 			<div id="container">
 				<table className="well">
 					<thead>
